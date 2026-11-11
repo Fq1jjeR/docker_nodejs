@@ -1,0 +1,5 @@
+services:
+  nodejs:
+    build: .
+    ports:
+      - "8083:10000"
